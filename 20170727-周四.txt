@@ -1,0 +1,11 @@
+2017-07-27，李兴亮，日报
+1、所做工作：
+（1）上午，看了cookie的操作，有get、set和remove，如何设置expires以秒为单位；使用时要引入/gallery/Cookie。
+（2）下午，看了中车demo中的main.jsp生成过程，整个页面几乎都是动态生成的，权限树的构建有点绕，展示查询结果有难度。
+（3）学习了select2插件的操作，比原始的select要美观的多，功能也很多。
+
+2、遇到的问题
+（1）要想调用seajs模块中的响应事件（定义在js文件中），必须使用seajs.use(...)来引用js文件，直接使用<script src=".../xxx.js"></script>是不行的。
+（2）在<head>部分引入js文件时，必须先引入sea.js，然后再引入config.js，不然会提示找不到seajs对象。所以，得注意js文件引入的先后顺序。
+（3）存在多个config.js文件，它们处于不同的目录下，每个config.js只负责本目录下的js文件配置，不同目录下的config.js互不干扰。config.js是给seajs用的，设置一些别名、路径等。
+（4）css文件里面的内容很多，如何让界面更美观，难度很大。

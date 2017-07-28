@@ -1,0 +1,7 @@
+2017-07-25，李兴亮，日报
+1、所做工作：
+（1）上午，把w3school上的jQuery剩余章节看完了，对jQuery语法有个大致的了解。
+（2）下午，结合程序看了seajs的语法；刚才，张利兵给我们培训了大数据相关的东西，如HDFS、Hive、HBase、Spark等。
+
+2、遇到的问题
+（1）在给xml文件写注释时，将注释写在了文件的第一行，编译的时候出错，提示找不到bean，找了很久才发现“Xml declaration should precede all document content”。
