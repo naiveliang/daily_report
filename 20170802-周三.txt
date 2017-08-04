@@ -1,0 +1,8 @@
+2017-08-02，李兴亮，日报
+1、所做工作：
+今天一天都在做培训后的小demo，到现在，自己的部分（基地的增删改查）已基本完成了，等会把我们三个人的整合到一起，整个demo就完成了。
+
+2、遇到的问题：
+（1）ajax中url必须加反斜杠，如: "/insertBase"，这表示在目录下的insertBase，如果不加反斜杠，则表示在当前目录（templates）下的。@RequestMapping中的url可以加、也可以不加反斜杠。
+（2）<insert id="insertBase" parameterType="BaseBean" keyProperty="id" useGeneratedKeys="true"> 这里的keyProperty="id"是插入后获得id，因为id是自增的。
+（3）service层之间如果非必要，最好不要相互调用；service应该就直接调用mapper层。
